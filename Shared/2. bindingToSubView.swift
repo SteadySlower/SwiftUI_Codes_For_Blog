@@ -15,15 +15,28 @@ struct Student: Identifiable {
 
 struct MainView2: View {
     
-    @ObservedObject var viewModel = MainView2Model()
+//    @ObservedObject var viewModel = MainView2Model()
+    
+    @State var students = [
+        Student(name: "김철수", score: 100),
+        Student(name: "김영희", score: 90),
+        Student(name: "이영수", score: 80),
+        Student(name: "이영희", score: 70),
+        Student(name: "박철수", score: 60),
+        Student(name: "박영희", score: 50),
+        Student(name: "최철수", score: 40),
+        Student(name: "최영희", score: 30),
+        Student(name: "정철수", score: 20),
+        Student(name: "정영희", score: 10),
+    ]
     
     var body: some View {
         NavigationView {
             ScrollView {
                 LazyVStack (spacing: 20) {
-                    ForEach($viewModel.students) { $student in
+                    ForEach($students) { $student in
                         HStack {
-                            Text("\(student.name)의 점수는 \(student.score)점입니다.")
+                            Text("\($student.wrappedValue.name)의 점수는 \($student.wrappedValue.score)점입니다.")
                             Spacer()
                             NavigationLink {
                                 EditView(student: $student)
@@ -46,24 +59,28 @@ struct EditView: View {
     var body: some View {
         VStack(alignment: .center) {
             Spacer()
-            Text("점수 수정하기")
+            Text("\(student.name)의 점수 수정하기")
             TextField("", value: $student.score, formatter: NumberFormatter())
                 .frame(width: 50, height: 20)
                 .border(.gray, width: 1)
             Spacer()
         }
     }
-    
 }
 
-class MainView2Model: ObservableObject {
-    
-    @Published var students = [
-        Student(name: "Kim", score: 100),
-        Student(name: "Lee", score: 80),
-        Student(name: "Park", score: 60),
-        Student(name: "Choi", score: 40),
-        Student(name: "Jung", score: 20),
-    ]
-    
-}
+//class MainView2Model: ObservableObject {
+//
+//    @Published var students = [
+//        Student(name: "김철수", score: 100),
+//        Student(name: "김영희", score: 90),
+//        Student(name: "이영수", score: 80),
+//        Student(name: "이영희", score: 70),
+//        Student(name: "박철수", score: 60),
+//        Student(name: "박영희", score: 50),
+//        Student(name: "최철수", score: 40),
+//        Student(name: "최영희", score: 30),
+//        Student(name: "정철수", score: 20),
+//        Student(name: "정영희", score: 10),
+//    ]
+//
+//}
