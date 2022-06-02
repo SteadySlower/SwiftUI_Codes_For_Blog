@@ -11,8 +11,7 @@ import SwiftUI
 struct SwiftUI_PracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(MyInfo())
+            ProfileView()
         }
     }
 }

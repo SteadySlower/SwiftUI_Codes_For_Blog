@@ -56,3 +56,11 @@ struct ContentView: View {
             .environmentObject(MyInfo())
     }
 }
+
+//fileprivate class AuthViewModel: ObservableObject {
+//    @Published var user: User
+//    
+//    func logout() {
+//        self.user = nil
+//    }
+//}

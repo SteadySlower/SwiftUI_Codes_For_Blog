@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct Student: Identifiable {
+fileprivate struct Student: Identifiable {
     let id = UUID()
     var name: String
     var score: Int
 }
 
-struct MainView2: View {
+fileprivate struct MainView2: View {
     
 //    @ObservedObject var viewModel = MainView2Model()
     
@@ -52,7 +52,7 @@ struct MainView2: View {
     }
 }
 
-struct EditView: View {
+fileprivate struct EditView: View {
     
     @Binding var student: Student
     
