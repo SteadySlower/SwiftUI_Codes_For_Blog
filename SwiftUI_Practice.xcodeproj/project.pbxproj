@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4F4D3A28487C0400E9BA08 /* 4. EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F4D3928487C0400E9BA08 /* 4. EnvironmentObject.swift */; };
+		5A4F4D3B28487C0400E9BA08 /* 4. EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F4D3928487C0400E9BA08 /* 4. EnvironmentObject.swift */; };
+		5A538A772845B3B5007A6ABF /* 3. imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A538A762845B3B5007A6ABF /* 3. imagePicker.swift */; };
+		5A538A782845B3B5007A6ABF /* 3. imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A538A762845B3B5007A6ABF /* 3. imagePicker.swift */; };
 		5A56199128449E5600A4259A /* 1. onReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56199028449E5600A4259A /* 1. onReceive.swift */; };
 		5A56199228449E5600A4259A /* 1. onReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56199028449E5600A4259A /* 1. onReceive.swift */; };
 		5A5619942844A2FF00A4259A /* 2. bindingToSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5619932844A2FF00A4259A /* 2. bindingToSubView.swift */; };
@@ -39,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A4F4D3928487C0400E9BA08 /* 4. EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4. EnvironmentObject.swift"; sourceTree = "<group>"; };
+		5A538A762845B3B5007A6ABF /* 3. imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. imagePicker.swift"; sourceTree = "<group>"; };
 		5A56199028449E5600A4259A /* 1. onReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. onReceive.swift"; sourceTree = "<group>"; };
 		5A5619932844A2FF00A4259A /* 2. bindingToSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. bindingToSubView.swift"; sourceTree = "<group>"; };
 		5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
@@ -103,6 +109,8 @@
 				5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */,
 				5A56199028449E5600A4259A /* 1. onReceive.swift */,
 				5A5619932844A2FF00A4259A /* 2. bindingToSubView.swift */,
+				5A538A762845B3B5007A6ABF /* 3. imagePicker.swift */,
+				5A4F4D3928487C0400E9BA08 /* 4. EnvironmentObject.swift */,
 				5AE1437C282217C200BC0E60 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -304,8 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A56199128449E5600A4259A /* 1. onReceive.swift in Sources */,
+				5A538A772845B3B5007A6ABF /* 3. imagePicker.swift in Sources */,
 				5A5619942844A2FF00A4259A /* 2. bindingToSubView.swift in Sources */,
 				5AE143A2282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
+				5A4F4D3A28487C0400E9BA08 /* 4. EnvironmentObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +324,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A56199228449E5600A4259A /* 1. onReceive.swift in Sources */,
+				5A538A782845B3B5007A6ABF /* 3. imagePicker.swift in Sources */,
 				5A5619952844A2FF00A4259A /* 2. bindingToSubView.swift in Sources */,
 				5AE143A3282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
+				5A4F4D3B28487C0400E9BA08 /* 4. EnvironmentObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,7 @@ struct MainView1: View {
     }
 }
 
-struct DetailView: View {
+fileprivate struct DetailView: View {
     
     @ObservedObject var viewModel = DetailViewModel()
     @State var buttonCount = 0
