@@ -19,12 +19,12 @@ struct MainView1: View {
             Text("To Detail Page")
         }
         .sheet(isPresented: $shouldShowModal) {
-            DetailView()
+            Detail1View()
                 }
     }
 }
 
-fileprivate struct DetailView: View {
+fileprivate struct Detail1View: View {
     
     @ObservedObject var viewModel = DetailViewModel()
     @State var buttonCount = 0
