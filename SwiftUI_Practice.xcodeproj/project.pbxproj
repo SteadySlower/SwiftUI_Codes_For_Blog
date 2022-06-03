@@ -17,6 +17,8 @@
 		5A5453DB28499CC900EA9862 /* 6. LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5453D928499CC900EA9862 /* 6. LinearGradient.swift */; };
 		5A5453E02849AA6600EA9862 /* 7. NavigationBarOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5453DF2849AA6600EA9862 /* 7. NavigationBarOptions.swift */; };
 		5A5453E12849AA6600EA9862 /* 7. NavigationBarOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5453DF2849AA6600EA9862 /* 7. NavigationBarOptions.swift */; };
+		5A5453E32849B00B00EA9862 /* TextFieldWithoutString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5453E22849B00B00EA9862 /* TextFieldWithoutString.swift */; };
+		5A5453E42849B00B00EA9862 /* TextFieldWithoutString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5453E22849B00B00EA9862 /* TextFieldWithoutString.swift */; };
 		5A56199128449E5600A4259A /* 1. onReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56199028449E5600A4259A /* 1. onReceive.swift */; };
 		5A56199228449E5600A4259A /* 1. onReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56199028449E5600A4259A /* 1. onReceive.swift */; };
 		5A5619942844A2FF00A4259A /* 2. bindingToSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5619932844A2FF00A4259A /* 2. bindingToSubView.swift */; };
@@ -54,6 +56,7 @@
 		5A538A762845B3B5007A6ABF /* 3. imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. imagePicker.swift"; sourceTree = "<group>"; };
 		5A5453D928499CC900EA9862 /* 6. LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6. LinearGradient.swift"; sourceTree = "<group>"; };
 		5A5453DF2849AA6600EA9862 /* 7. NavigationBarOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. NavigationBarOptions.swift"; sourceTree = "<group>"; };
+		5A5453E22849B00B00EA9862 /* TextFieldWithoutString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithoutString.swift; sourceTree = "<group>"; };
 		5A56199028449E5600A4259A /* 1. onReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. onReceive.swift"; sourceTree = "<group>"; };
 		5A5619932844A2FF00A4259A /* 2. bindingToSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. bindingToSubView.swift"; sourceTree = "<group>"; };
 		5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 				5A4F4D3C28488C2A00E9BA08 /* 5. State_Binding_initializer.swift */,
 				5A5453D928499CC900EA9862 /* 6. LinearGradient.swift */,
 				5A5453DF2849AA6600EA9862 /* 7. NavigationBarOptions.swift */,
+				5A5453E22849B00B00EA9862 /* TextFieldWithoutString.swift */,
 				5AE1437C282217C200BC0E60 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -326,6 +330,7 @@
 				5A4F4D3D28488C2A00E9BA08 /* 5. State_Binding_initializer.swift in Sources */,
 				5A5453DA28499CC900EA9862 /* 6. LinearGradient.swift in Sources */,
 				5A56199128449E5600A4259A /* 1. onReceive.swift in Sources */,
+				5A5453E32849B00B00EA9862 /* TextFieldWithoutString.swift in Sources */,
 				5A5453E02849AA6600EA9862 /* 7. NavigationBarOptions.swift in Sources */,
 				5A538A772845B3B5007A6ABF /* 3. imagePicker.swift in Sources */,
 				5A5619942844A2FF00A4259A /* 2. bindingToSubView.swift in Sources */,
@@ -341,6 +346,7 @@
 				5A4F4D3E28488C2A00E9BA08 /* 5. State_Binding_initializer.swift in Sources */,
 				5A5453DB28499CC900EA9862 /* 6. LinearGradient.swift in Sources */,
 				5A56199228449E5600A4259A /* 1. onReceive.swift in Sources */,
+				5A5453E42849B00B00EA9862 /* TextFieldWithoutString.swift in Sources */,
 				5A5453E12849AA6600EA9862 /* 7. NavigationBarOptions.swift in Sources */,
 				5A538A782845B3B5007A6ABF /* 3. imagePicker.swift in Sources */,
 				5A5619952844A2FF00A4259A /* 2. bindingToSubView.swift in Sources */,
