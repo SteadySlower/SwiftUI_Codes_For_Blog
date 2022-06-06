@@ -13,14 +13,14 @@ struct Pagination: View {
     var body: some View {
         ScrollView {
             LazyVStack {
-                ForEach(viewModel.alphabets) { alphabet in
-                    Text(alphabet.text)
+                ForEach(viewModel.data) { datum in
+                    Text(datum.text)
                         .frame(height: 100)
                         .font(.system(size: 30))
                         .onAppear {
-                            guard let index = viewModel.alphabets.firstIndex(where: { $0.id == alphabet.id }) else { return }
-                            if index == viewModel.alphabets.count - 1 {
-                                viewModel.fetchAlphabets()
+                            guard let index = viewModel.data.firstIndex(where: { $0.id == datum.id }) else { return }
+                            if index == viewModel.data.count - 1 {
+                                viewModel.fetchData()
                             }
                         }
                 }
@@ -29,46 +29,43 @@ struct Pagination: View {
     }
 }
 
-struct Alphabet: Identifiable {
+struct Datum: Identifiable {
     let id = UUID()
     let text: String
     
-    init(_ text: String) {
-        self.text = text
+    init(_ int: Int) {
+        self.text = "\(int)"
     }
 }
 
-extension UInt8 {
-    func asciiToString() -> String {
-        return String(Character(UnicodeScalar(self)))
-    }
-}
 
 class PaginationViewModel: ObservableObject {
-    // 아스키 코드로 알파벳 만들기
-    private let database: [Alphabet] = {
-        var database = [Alphabet]()
-        let start = Character("A").asciiValue!
-        for i in start..<(start + 100) {
-            database.append(Alphabet(i.asciiToString()))
+    private let database: [Datum] = {
+        var database = [Datum]()
+        (0..<100).forEach { i in
+            database.append(Datum(i))
         }
         return database
     }()
     
     init() {
-        fetchAlphabets()
+        fetchData()
     }
     
     
-    @Published var alphabets = [Alphabet]()
+    @Published var data = [Datum]()
     
     private let dataPerPage = 10
-    private var lastIndex = 0
+    private var nextIndex = 0
+    private var isLastPage: Bool {
+        return data.count == database.count
+    }
     
-    func fetchAlphabets() {
-        let fetchedData = database[(lastIndex + 1)...(lastIndex + dataPerPage)]
-        lastIndex += 10
-        alphabets.append(contentsOf: fetchedData)
+    func fetchData() {
+        guard isLastPage == false else { return }
+        let fetchedData = database[nextIndex..<(nextIndex + dataPerPage)]
+        nextIndex += 10
+        data.append(contentsOf: fetchedData)
     }
     
 }
