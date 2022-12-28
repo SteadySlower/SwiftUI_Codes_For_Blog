@@ -7,9 +7,22 @@
 
 import SwiftUI
 
+//🚫 안되는 예시
 struct ExampleAni: View {
+    
+    @State var transfrom: CGAffineTransform = .init(scaleX: 0, y: 0)
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Circle()
+                .foregroundColor(.blue)
+                .transformEffect(transfrom)
+            Button("커져라") {
+                withAnimation(.linear(duration: 0.5)) {
+                    transfrom = .identity
+                }
+            }
+        }
     }
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06791CF7295AC83F004F05CD /* ExampleAni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06791CF6295AC83F004F05CD /* ExampleAni.swift */; };
+		06791CF8295AC83F004F05CD /* ExampleAni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06791CF6295AC83F004F05CD /* ExampleAni.swift */; };
+		06791CFA295AC9A2004F05CD /* Example2Ani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06791CF9295AC9A2004F05CD /* Example2Ani.swift */; };
+		06791CFB295AC9A2004F05CD /* Example2Ani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06791CF9295AC9A2004F05CD /* Example2Ani.swift */; };
 		5A494DC32949733F00D42DBA /* AffineAni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A494DC22949733F00D42DBA /* AffineAni.swift */; };
 		5A494DC42949733F00D42DBA /* AffineAni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A494DC22949733F00D42DBA /* AffineAni.swift */; };
 		5AE143A2282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */; };
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06791CF6295AC83F004F05CD /* ExampleAni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAni.swift; sourceTree = "<group>"; };
+		06791CF9295AC9A2004F05CD /* Example2Ani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2Ani.swift; sourceTree = "<group>"; };
 		5A494DC22949733F00D42DBA /* AffineAni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineAni.swift; sourceTree = "<group>"; };
 		5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		5AE1437C282217C200BC0E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +97,8 @@
 			children = (
 				5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */,
 				5A494DC22949733F00D42DBA /* AffineAni.swift */,
+				06791CF6295AC83F004F05CD /* ExampleAni.swift */,
+				06791CF9295AC9A2004F05CD /* Example2Ani.swift */,
 				5AE1437C282217C200BC0E60 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -289,6 +297,8 @@
 			files = (
 				5A494DC32949733F00D42DBA /* AffineAni.swift in Sources */,
 				5AE143A2282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
+				06791CFA295AC9A2004F05CD /* Example2Ani.swift in Sources */,
+				06791CF7295AC83F004F05CD /* ExampleAni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +308,8 @@
 			files = (
 				5A494DC42949733F00D42DBA /* AffineAni.swift in Sources */,
 				5AE143A3282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
+				06791CFB295AC9A2004F05CD /* Example2Ani.swift in Sources */,
+				06791CF8295AC83F004F05CD /* ExampleAni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
