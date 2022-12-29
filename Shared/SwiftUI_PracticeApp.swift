@@ -12,7 +12,7 @@ struct SwiftUI_PracticeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ColorAsset()
+            Font()
         }
     }
 }

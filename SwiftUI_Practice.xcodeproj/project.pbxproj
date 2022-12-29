@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06791D09295D39E3004F05CD /* Rubik-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06791D07295D39E3004F05CD /* Rubik-Italic-VariableFont_wght.ttf */; };
+		06791D0A295D39E3004F05CD /* Rubik-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06791D08295D39E3004F05CD /* Rubik-VariableFont_wght.ttf */; };
+		06791D0D295D3C41004F05CD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06791D0C295D3C41004F05CD /* Font.swift */; };
 		5AE143A2282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */; };
 		5AE143A3282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */; };
 		5AE143A6282217C200BC0E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE1437C282217C200BC0E60 /* Assets.xcassets */; };
 		5AE143A7282217C200BC0E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE1437C282217C200BC0E60 /* Assets.xcassets */; };
-		5AF59642295D2EFC00A34A6A /* ColorAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF59641295D2EFC00A34A6A /* ColorAsset.swift */; };
-		5AF59643295D2EFC00A34A6A /* ColorAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF59641295D2EFC00A34A6A /* ColorAsset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06791D07295D39E3004F05CD /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		06791D08295D39E3004F05CD /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		06791D0B295D3B2D004F05CD /* SwiftUI-Practice--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Practice--iOS--Info.plist"; sourceTree = "<group>"; };
+		06791D0C295D3C41004F05CD /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		5AE1437C282217C200BC0E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE14381282217C200BC0E60 /* SwiftUI_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,7 +45,6 @@
 		5AE14389282217C200BC0E60 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		5AE1438E282217C200BC0E60 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE1439A282217C200BC0E60 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AF59641295D2EFC00A34A6A /* ColorAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAsset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +79,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06791D02295D394A004F05CD /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				06791D07295D39E3004F05CD /* Rubik-Italic-VariableFont_wght.ttf */,
+				06791D08295D39E3004F05CD /* Rubik-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		5AE14374282217C100BC0E60 = {
 			isa = PBXGroup;
 			children = (
+				06791D0B295D3B2D004F05CD /* SwiftUI-Practice--iOS--Info.plist */,
 				5AE14379282217C100BC0E60 /* Shared */,
 				5AE14388282217C200BC0E60 /* macOS */,
 				5AE14391282217C200BC0E60 /* Tests iOS */,
@@ -90,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */,
-				5AF59641295D2EFC00A34A6A /* ColorAsset.swift */,
+				06791D0C295D3C41004F05CD /* Font.swift */,
 				5AE1437C282217C200BC0E60 /* Assets.xcassets */,
+				06791D02295D394A004F05CD /* Font */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -254,7 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06791D0A295D39E3004F05CD /* Rubik-VariableFont_wght.ttf in Resources */,
 				5AE143A6282217C200BC0E60 /* Assets.xcassets in Resources */,
+				06791D09295D39E3004F05CD /* Rubik-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF59642295D2EFC00A34A6A /* ColorAsset.swift in Sources */,
+				06791D0D295D3C41004F05CD /* Font.swift in Sources */,
 				5AE143A2282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF59643295D2EFC00A34A6A /* ColorAsset.swift in Sources */,
 				5AE143A3282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +466,7 @@
 				DEVELOPMENT_TEAM = ZX72355299;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Practice--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,6 +497,7 @@
 				DEVELOPMENT_TEAM = ZX72355299;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Practice--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
