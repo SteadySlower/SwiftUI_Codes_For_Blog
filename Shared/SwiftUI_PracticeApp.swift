@@ -10,7 +10,17 @@ import SwiftUI
 @main
 struct SwiftUI_PracticeApp: App {
     
-    @State var username = "Teddy"
+    @State var username: String
+    
+    init() {
+        let isUITesting: Bool = ProcessInfo.processInfo.arguments.contains("UITesting")
+        if isUITesting {
+            let username = ProcessInfo.processInfo.environment["username"]!
+            self.username = username
+        } else {
+            self.username = ""
+        }
+    }
     
     var body: some Scene {
         WindowGroup {

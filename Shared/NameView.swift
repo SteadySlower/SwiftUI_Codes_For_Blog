@@ -18,6 +18,8 @@ struct NameView: View {
             TextField("이름", text: $input)
                 .frame(width: 100, height: 50)
                 .border(.black)
+                .accessibilityIdentifier("name field")
+                .accessibilityLabel("이름 텍스트 필드")
             Button {
                 if isNameValid() {
                     name = input
@@ -31,9 +33,13 @@ struct NameView: View {
                     .background(.mint)
                     .cornerRadius(25)
             }
+            .accessibilityIdentifier("input button")
+            .accessibilityLabel("입력버튼")
         }
         .alert("이름은 5글자 이상으로 해주세요", isPresented: $showAlert) {
-            Button("OK") { input = "" }
+            Button("다시 입력") { input = "" }
+                .accessibilityIdentifier("alert button")
+                .accessibilityLabel("팝업 종료 버튼")
         }
     }
     

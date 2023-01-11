@@ -16,5 +16,7 @@ struct PictureView: View {
             .resizable()
             .frame(width: 200, height: 200)
             .navigationTitle("\(pictureName)의 그림 힌트")
+            .accessibilityIdentifier("hint picture")
+            .accessibilityLabel("\(pictureName)의 그림")
     }
 }
