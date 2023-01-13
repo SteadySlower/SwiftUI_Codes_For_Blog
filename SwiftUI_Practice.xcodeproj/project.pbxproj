@@ -12,6 +12,10 @@
 		5A4D2DE6294847FB00248479 /* UITest_Now.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D2DE5294847FB00248479 /* UITest_Now.swift */; };
 		5A64586C28C1EA67006A2A81 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A64586B28C1EA67006A2A81 /* sample.mp3 */; };
 		5A64586D28C1EA67006A2A81 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A64586B28C1EA67006A2A81 /* sample.mp3 */; };
+		5AAE1705296E9EF80094AE1E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE1704296E9EF80094AE1E /* Service.swift */; };
+		5AAE1706296E9EF80094AE1E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE1704296E9EF80094AE1E /* Service.swift */; };
+		5AAE1708296EA01A0094AE1E /* QuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE1707296EA01A0094AE1E /* QuizView2.swift */; };
+		5AAE1709296EA01A0094AE1E /* QuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE1707296EA01A0094AE1E /* QuizView2.swift */; };
 		5AE14395282217C200BC0E60 /* UITests_Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE14394282217C200BC0E60 /* UITests_Name.swift */; };
 		5AE1439F282217C200BC0E60 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1439E282217C200BC0E60 /* Tests_macOS.swift */; };
 		5AE143A1282217C200BC0E60 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE143A0282217C200BC0E60 /* Tests_macOSLaunchTests.swift */; };
@@ -50,6 +54,8 @@
 		5A4CB3C7296D62110004E710 /* UITest_Quiz_Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest_Quiz_Launch.swift; sourceTree = "<group>"; };
 		5A4D2DE5294847FB00248479 /* UITest_Now.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest_Now.swift; sourceTree = "<group>"; };
 		5A64586B28C1EA67006A2A81 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+		5AAE1704296E9EF80094AE1E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		5AAE1707296EA01A0094AE1E /* QuizView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView2.swift; sourceTree = "<group>"; };
 		5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		5AE1437C282217C200BC0E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE14381282217C200BC0E60 /* SwiftUI_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,7 +131,9 @@
 				5AE1437A282217C100BC0E60 /* SwiftUI_PracticeApp.swift */,
 				5AFB26A7294710C10015E617 /* NameView.swift */,
 				5AFB26AA294711BA0015E617 /* QuizView.swift */,
+				5AAE1707296EA01A0094AE1E /* QuizView2.swift */,
 				5AFB26AD294716870015E617 /* PictureView.swift */,
+				5AAE1704296E9EF80094AE1E /* Service.swift */,
 				5AE1437C282217C200BC0E60 /* Assets.xcassets */,
 				5A64586B28C1EA67006A2A81 /* sample.mp3 */,
 			);
@@ -342,7 +350,9 @@
 			files = (
 				5AFB26AE294716870015E617 /* PictureView.swift in Sources */,
 				5AE143A2282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
+				5AAE1705296E9EF80094AE1E /* Service.swift in Sources */,
 				5AFB26AB294711BA0015E617 /* QuizView.swift in Sources */,
+				5AAE1708296EA01A0094AE1E /* QuizView2.swift in Sources */,
 				5AFB26A8294710C10015E617 /* NameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +363,9 @@
 			files = (
 				5AFB26AF294716870015E617 /* PictureView.swift in Sources */,
 				5AE143A3282217C200BC0E60 /* SwiftUI_PracticeApp.swift in Sources */,
+				5AAE1706296E9EF80094AE1E /* Service.swift in Sources */,
 				5AFB26AC294711BA0015E617 /* QuizView.swift in Sources */,
+				5AAE1709296EA01A0094AE1E /* QuizView2.swift in Sources */,
 				5AFB26A9294710C10015E617 /* NameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
