@@ -138,8 +138,9 @@ extension QuizView2 {
         
         func loadQuiz() {
             service.LoadQuiz { quiz in
+                print(quiz)
                 self.questions = quiz[0]
-                self.questions = quiz[1]
+                self.answers = quiz[1]
             }
         }
     }
