@@ -19,7 +19,7 @@ struct SwiftUI_PracticeApp: App {
         if isUITesting {
             let username = ProcessInfo.processInfo.environment["-username"]!
             self.username = username
-            self.service.serviceType = "Mock"
+            self.service.serviceType = .mock
         } else {
             self.username = ""
         }
@@ -32,8 +32,9 @@ struct SwiftUI_PracticeApp: App {
                 NameView(name: $username)
             } else {
                 NavigationView {
-//                    QuizView(username: username)
-                    QuizView2(username: username, service: service)
+                    QuizView(username: username)
+                    // 네트워크 버전
+//                    QuizView2(username: username, service: service)
                 }
             }
         }
