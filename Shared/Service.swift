@@ -18,7 +18,7 @@ class NetworkService {
     
     // 모킹 후
     func LoadQuiz(_ completion: @escaping ([[String]]) -> Void) {
-        if serviceType == "Real" {
+        if serviceType == .release {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 let questions = ["사과", "바나나", "자동차"]
                 let answers = ["apple", "banana", "car"]
